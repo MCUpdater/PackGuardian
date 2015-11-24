@@ -4,11 +4,8 @@ import net.minecraftforge.common.Configuration;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.common.network.NetworkMod;
-
 
 @Mod(modid = "PackGuardian")
-@NetworkMod(clientSideRequired = true)
 public class PackGuardian {
 	public String version;
 	static Configuration config;
